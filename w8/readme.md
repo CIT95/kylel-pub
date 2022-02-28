@@ -1,0 +1,2 @@
+# Learn Together Week 8
+This program tracks the number of miles a person runs in throughout a week. Technically I've designed it around a week's worth of data, but could be scaled to whatever size of datapoints (since it is a list of dictionaries). It provides a total of miles and an average based on the dictionary values. This was a really hard one for me! I did a lot of revising and troubleshooting because I did run into quite a few issues with using a dictionary! But I feel I've learned enough about them to keep working on this week's requirements.

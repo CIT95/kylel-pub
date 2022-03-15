@@ -20,7 +20,7 @@ def new_mileage(tracker):
         next_value = input("would you like to continue? Type y for yes or"
                            " n for no. ").lower())
         if next_value == "n":
-            return True
+            return False
         days = input("What's the next day? ")
         miles = float(input(f"How many miles did you run on {days}? "))
         new_mile == []
@@ -35,7 +35,7 @@ new_mileage()
 
 
 def add(tracker):
-    total = sum(item['Miles'] for item in tracker)
+    total = sum(item['Miles'])
     return f"Your total mileage is: {total} miles."
 
 # function creates an average based off total miles/ the length of the
